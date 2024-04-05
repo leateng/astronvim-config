@@ -8,9 +8,7 @@ return {
   -- import/override with your plugins folder
 
   -- themes
-  { import = "astrocommunity.colorscheme.nightfox-nvim", enabled = true },
-  { import = "astrocommunity.colorscheme.kanagawa-nvim", enabled = true },
-  { import = "astrocommunity.colorscheme.rose-pine" },
+  { import = "astrocommunity.colorscheme.nightfox-nvim"},
   { import = "astrocommunity.colorscheme.catppuccin" },
 
   -- language pack
