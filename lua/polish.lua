@@ -17,17 +17,18 @@
 --   },
 -- }
 
+vim.o.termguicolors = true
 vim.filetype.add {
   extension = {
-    qml = "xml",
+    qml = "qml",
     qss = "css",
   },
 }
 
 if vim.g.neovide then
   -- vim.o.colorscheme = "catppuccin-latte"
-  vim.o.guifont = "FiraCode Nerd Font:h18"
-  vim.g.neovide_refresh_rate = 120
+  vim.o.guifont = "FiraCode Nerd Font:h13"
+  vim.g.neovide_refresh_rate = 60
   vim.g.neovide_refresh_rate_idle = 5
   vim.g.neovide_cursor_vfx_mode = "railgun"
   vim.g.neovide_cursor_antialiasing = true

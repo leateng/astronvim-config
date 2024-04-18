@@ -4,11 +4,9 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
-  { import = "astrocommunity.pack.lua" },
-  -- import/override with your plugins folder
 
   -- themes
-  { import = "astrocommunity.colorscheme.nightfox-nvim"},
+  { import = "astrocommunity.colorscheme.nightfox-nvim" },
   { import = "astrocommunity.colorscheme.catppuccin" },
 
   -- language pack
