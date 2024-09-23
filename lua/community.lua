@@ -14,7 +14,6 @@ return {
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.ruby" },
-  { import = "astrocommunity.pack.python-ruff" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.go" },
@@ -23,6 +22,7 @@ return {
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.pack.yaml" },
+  { import = "astrocommunity.pack.crystal" },
 
   -- git
   { import = "astrocommunity.git.diffview-nvim" },
